@@ -1,3 +1,55 @@
 body {
   font-family: sans-serif, arial;
 }
+
+input {
+  margin: 5px;
+}
+
+/* ------------- create box ------------- */
+.container {
+  border: 1px solid black;
+  margin: auto;
+  text-align: left;
+  width: 30%;
+}
+
+/* ------------- format button ------------- */
+
+.button {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+#watched, #towatch, #reset {
+  background-color: white;
+  color: black;
+  margin: 1px;
+  border: 1px solid black;
+}
+
+.movieentry {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.searchbar {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block
+}
+
+img {
+  width: 200px;
+  height: 171px;
+  display: inline-block;
+}
+
+.toggleMovie {
+  display: none;
+}
